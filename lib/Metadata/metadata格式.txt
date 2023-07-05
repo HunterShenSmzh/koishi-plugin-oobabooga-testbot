@@ -1,0 +1,13 @@
+{
+  "chara": {
+    "name": "",
+    "description": "",
+    "personality": "",
+    "first_mes": "",
+    "avatar": "",
+    "chat": "",
+    "mes_example": "",
+    "scenario": "",
+    "create_date": ""
+  }
+}
