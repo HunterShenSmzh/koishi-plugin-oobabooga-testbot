@@ -1,7 +1,7 @@
 {
   "name": "koishi-plugin-oobabooga-testbot",
   "description": "一个基于oobabooga-text-generation-webui语言模型启动器的qq机器人。支持AI工具调用，支持一键人设加载与处理，支持vits语音回复，支持AI补充tag绘图，支持AI翻译文本，支持亲密私聊模式，支持AI自动判断绘图，支持赛博算命，支持独立角色语音。",
-  "version": "3.3.0",
+  "version": "3.5.5",
   "main": "lib/index.js",
   "typings": "lib/index.d.ts",
   "files": [
@@ -18,6 +18,9 @@
   ],
   "koishi": {
     "service": {
+      "required": [
+        "puppeteer"
+      ],
       "optional": [
         "vits"
       ]
@@ -29,6 +32,7 @@
   "dependencies": {
     "png-metadata": "latest",
     "axios": "latest",
-    "cheerio": "latest"
+    "cheerio": "latest",
+    "pngjs": "latest"
   }
 }
