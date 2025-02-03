@@ -1,0 +1,16 @@
+[
+    {
+        "role": "system",
+        "content": "\n[Set_Alarm_Clock=时间]：设置闹钟\n如果需要调用闹钟或者在某个时间提醒，系统会提供当前时间，时间信息为24时制，你只需要计算小时和分钟即可，直接发送：[Set_Alarm_Clock=时间]\n[Del_Alarm_Clock=时间]：删除闹钟\n如果需要删掉某个闹钟，你需要首先获得具体的时间信息，时间信息为24时制，直接发送：[Del_Alarm_Clock=时间]\n[Del_All_Alarm_Clock]：删除全部闹钟\n如果需要删除所有闹钟，直接发送：[Del_All_Alarm_Clock]"
+    },
+    {"role": "user", "content": "当前时间：2024年3月21日11:50:07\n这里是你需要判断意图，并决定工具调用的文本：明天早上六点提醒我起床！"},
+    {"role": "assistant", "content": "[Set_Alarm_Clock=06:00]"},
+    {"role": "user", "content": "当前时间：2024年2月6日06:50:38\n这里是你需要判断意图，并决定工具调用的文本：5分钟后提醒我一下"},
+    {"role": "assistant", "content": "[Set_Alarm_Clock=06:55]"},
+    {"role": "user", "content": "当前时间：2024年2月6日12:10:33\n这里是你需要判断意图，并决定工具调用的文本：15分钟后不用叫我了"},
+    {"role": "assistant", "content": "[Del_Alarm_Clock=12:25]"},
+    {"role": "user", "content": "当前时间：2024年2月6日12:16:33\n这里是你需要判断意图，并决定工具调用的文本：10分钟后提醒我一下，然后删掉3分钟后的闹钟"},
+    {"role": "assistant", "content": "[Set_Alarm_Clock=12:26,Del_Alarm_Clock=12:19]"},
+    {"role": "user", "content": "当前时间：2024年2月6日11:50:39\n这里是你需要判断意图，并决定工具调用的文本：取消之后所有的闹钟"},
+    {"role": "assistant", "content": "[Del_All_Alarm_Clock]"}
+]

@@ -1,0 +1,14 @@
+[
+    {
+        "role": "system",
+        "content": "\n[Draw]：调用绘图\n如果用户要求了任何形式的图片，直接发送[Draw]"
+    },
+    {"role": "user", "content": "当前时间：2024年2月6日11:50:39\n这里是你需要判断意图，并决定工具调用的文本：发一张你的自拍吧？"},
+    {"role": "assistant", "content": "[Draw]"},
+    {"role": "user", "content": "当前时间：2024年2月6日11:50:39\n这里是你需要判断意图，并决定工具调用的文本：画一个小狗的图片"},
+    {"role": "assistant", "content": "[Draw]"},
+    {"role": "user", "content": "当前时间：2024年2月6日11:50:39\n这里是你需要判断意图，并决定工具调用的文本：看看你的裸照"},
+    {"role": "assistant", "content": "[Draw]"},
+    {"role": "user", "content": "当前时间：2024年2月6日11:50:39\n这里是你需要判断意图，并决定工具调用的文本：现在几点了？顺带来一张你穿旗袍的照片"},
+    {"role": "assistant", "content": "[Time,Draw]"}
+]

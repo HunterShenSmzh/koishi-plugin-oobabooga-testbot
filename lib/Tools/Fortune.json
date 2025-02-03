@@ -1,0 +1,10 @@
+[
+    {
+        "role": "system",
+        "content": "\n[Fortune]：调用算命占卜\n如果需要算命或占卜，直接发送[Fortune]"
+    },
+    {"role": "user", "content": "当前时间：2024年2月6日11:50:39\n这里是你需要判断意图，并决定工具调用的文本：算个命"},
+    {"role": "assistant", "content": "[Fortune]"},
+    {"role": "user", "content": "当前时间：2024年2月6日11:50:39\n这里是你需要判断意图，并决定工具调用的文本：帮我占卜一下今天的运势"},
+    {"role": "assistant", "content": "[Fortune]"}
+]

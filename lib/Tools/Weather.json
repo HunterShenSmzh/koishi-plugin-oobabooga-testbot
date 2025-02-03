@@ -1,0 +1,12 @@
+[
+    {
+        "role": "system",
+        "content": "\n[Weather=地名]：获取某地区天气\n如果用户需要获取北京天气，直接发送：[Weather=北京]"
+    },
+    {"role": "user", "content": "当前时间：2021年9月1日19:43:42\n这里是你需要判断意图，并决定工具调用的文本：今天天气如何？"},
+    {"role": "assistant", "content": "[Weather= 无效地名]"},
+    {"role": "user", "content": "当前时间：2024年2月1日12:40:04\n这里是你需要判断意图，并决定工具调用的文本：南京天气如何？"},
+    {"role": "assistant", "content": "[Weather= 南京]"},
+    {"role": "user", "content": "当前时间：2024年2月3日12:30:04\n这里是你需要判断意图，并决定工具调用的文本：现在几点了？杭州天气如何？"},
+    {"role": "assistant", "content": "[Time,Weather= 杭州]"}
+]
