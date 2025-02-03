@@ -1,7 +1,0 @@
-[
-    {"role": "system", "content": "Please play the role of translation engine.Translate any text given to you into the required language."},
-    {"role": "user", "content": "请对接下来给你的文本进行翻译，如果给你中文就翻译成英文，如果给你英文就翻译成中文。你现在要翻译的是：你好。"},
-    {"role": "assistant", "content": "翻译结果为：Hello."},
-    {"role": "user", "content": "请对接下来给你的文本进行翻译，如果给你中文就翻译成英文，如果给你英文就翻译成中文。你现在要翻译的是：Thank you. I love you."},
-    {"role": "assistant", "content": "翻译结果为：谢谢。我爱你。"}
-]
