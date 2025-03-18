@@ -1,0 +1,37 @@
+{
+  "name": "koishi-plugin-oobabooga-testbot",
+  "description": "大语言模型(本地/在线)聊天机器人。支持AI视觉伪多模态，AI工具调用，Emb长期记忆，vits语音回复，AI自动判断调用绘图，更多娱乐功能请看插件简介。",
+  "version": "5.5.2",
+  "main": "lib/index.js",
+  "typings": "lib/index.d.ts",
+  "files": [
+    "lib",
+    "dist"
+  ],
+  "license": "AGPL-3.0",
+  "homepage": "https://github.com/HunterShenSmzh/koishi-plugin-oobabooga-testbot",
+  "keywords": [
+    "chatbot",
+    "koishi",
+    "plugin"
+  ],
+  "koishi": {
+    "service": {
+      "required": [
+        "puppeteer"
+      ],
+      "optional": [
+        "vits"
+      ]
+    }
+  },
+  "peerDependencies": {
+    "koishi": "^4.16.4"
+  },
+  "dependencies": {
+    "axios": "latest",
+    "cheerio": "latest",
+    "png-metadata": "latest",
+    "pngjs": "latest"
+  }
+}
