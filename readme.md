@@ -8,7 +8,7 @@
 
 ### 用前需知
 ### QQ讨论群：719518427
-### 当前为正式版本5.4.2
+### 当前为正式版本5.5.4
 注意！插件更新会导致历史记录与默认人设重置，请自行保存相关文档！<br>
 兼容语言模型服务后端包括：<br>
 Text-Generation-Webui(推荐)，gemini接口，Deepseek接口，标准Openai接口，标准Openai接口+任意额外参数<br>
@@ -53,20 +53,6 @@ NovelAI插件：https://bot.novelai.dev/<br>
 
 ### QQ讨论群：719518427
 有疑问，出现bug，有改进想法都可以加qq群讨论<br>
-
-### 推荐使用的语言模型：
-7-9b<br>
-超级推荐：Gemma2-9b：https://hf-mirror.com/bartowski/gemma-2-9b-it-GGUF<br>
-
-13b<br>
-Nous-Hermes-13b-Chinese-plus-GPTQ：https://huggingface.co/coyude/Nous-Hermes-13b-Chinese-plus-GPTQ<br>
-openbuddy-llama2-13b：https://huggingface.co/TheBloke/OpenBuddy-Llama2-13B-v11.1-GPTQ<br>
-
-13b+<br>
-超级推荐：Gemma2-27b：https://hf-mirror.com/bartowski/gemma-2-27b-it-GGUF<br>
-推荐：dolphin-2.9.1-yi-1.5-34b-4.65bpw-h6-exl2：https://hf-mirror.com/LoneStriker/dolphin-2.9.1-yi-1.5-34b-4.65bpw-h6-exl2<br>
-推荐：Nous-Capybara-34b-gptq：https://huggingface.co/TheBloke/Nous-Capybara-34B-GPTQ<br>
-等模型<br>
 
 ### 人设网址分享与处理：
 （以下网址，需要科学上网，直接下载人设png图片文件放入插件根目录下的PNGfile文件，使用oob.Metadata，就会自动生成基础人设文件）<br>
