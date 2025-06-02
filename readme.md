@@ -8,7 +8,7 @@
 
 ### 用前需知
 ### QQ讨论群：719518427
-### 当前为正式版本5.5.6
+### 当前为正式版本5.6.0
 注意！插件更新会导致历史记录与默认人设重置，请自行保存相关文档！<br>
 兼容语言模型服务后端包括：<br>
 Text-Generation-Webui(推荐)，gemini接口，Deepseek接口，标准Openai接口，标准Openai接口+任意额外参数<br>
@@ -47,6 +47,10 @@ NovelAI插件：https://bot.novelai.dev/<br>
 支持接入emb向量库获得超长期记忆<br>
 教程：https://forum.koishi.xyz/t/topic/2391/55<br>
 视频：https://www.bilibili.com/video/BV1yG4heJEE4/?<br>
+
+### memorytable记忆表格
+支持接入记忆表格插件<br>
+插件地址：https://www.npmjs.com/package/koishi-plugin-memorytable<br>
 
 ### 人设背景库
 教程：https://forum.koishi.xyz/t/topic/2391/56<br>
